@@ -1,0 +1,55 @@
+body {
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);    
+font-family: 'Open Sans', sans-serif;
+}
+
+.jumbotron {
+    background-color: rgba(255, 255, 255, 0);
+    padding-top: 40px;
+}
+
+.cardsbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;    
+}
+
+.lead {
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.349);
+}    
+
+/*SOMBRA PARA TEXTO*/
+.drop-shadow { 
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.349);
+}
+
+main {
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    max-width: 950px;
+}
+
+.btn-outline-light {
+    background-color: white;
+}
+
+.btn-outline-light:hover {
+    background-color: rgba(255, 255, 255, 0.404);
+}
+
+.wdcarrousel {
+    max-width: 750px;
+}
