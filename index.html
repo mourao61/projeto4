@@ -3,89 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Document</title>
-
-    <!-- Este é meu bootstrap CSS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Open+Sans:wght@300;700&display=swap" rel="stylesheet"> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet"> 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto&display=swap" rel="stylesheet">  
+    <title>Inicio</title>
 
+</head>
 <body>
     
 <div class="container">
-    
-  <!-- Menu -->
-  <nav class="navbar navbar-expand-lg navbar-dark">
-    <div class="container-fluid">      
-      <nav class="navbar navbar-dark">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img src="images/iogo.png" alt="yogo sorveteria">
-          </a>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <!-- Just an image -->
+      <nav class="navbar navbar-light">
+      <a class="navbar-brand" href="#">
+     <img src="images/iogo.png" alt="Logo YOGO">
+     </a>
+        </nav>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">    
+        
+        <!--botao dropdown-->
+            <li class="nav-item dropdown mr-4">
+              <a class="nav-link dropdown-toggle text-white drop-shadow" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sabores
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Morango</a>
+                <a class="dropdown-item" href="#">Chocolate</a>
+                <a class="dropdown-item" href="#">Flocos</a>
+              </div>
+            </li>
+            
+            <!--botao normal-->
+            <li class="nav-item active">
+              <a class="nav-link text-white drop-shadow" href="#">Contato<span class="sr-only">(current)</span></a>
+            </li>  
+          </ul>
         </div>
       </nav>
-      
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse ml-auto" id="navbarNavDropdown">
-        <ul class="navbar-nav">          
-          <li class="nav-item dropdown mr-4">
-            <a class="nav-link dropdown-toggle btn btn-outline-light text-white" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Sabores
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <li><a class="dropdown-item" href="#">Morango</a></li>
-              <li><a class="dropdown-item" href="#">Chocolate</a></li>
-              <li><a class="dropdown-item" href="#">Flocos</a></li>
-            </ul>
-          </li>          
-          <li class="nav-item">
-            <a class="nav-link btn btn-outline-light text-white" href="#">Contato</a>
-          </li>          
-        </ul>
-      </div>
-    </div>
-  </nav>
-      
+</div>
 
-      <!-- Jumbotron -->
+<!--jumbotron-->
 
-      <div class="jumbotron">
-      <div class="row">
-        
-        <div class="col12 col-md-7 text-center text-md-start"><h1 class="display-4 text-white drop-shadow"> Delícia de sorvete</h1>
-          <p class="lead">O melhor sorvete de Brasília</p>
-          
-          <a class="btn btn-outline-light px-4 py-2 mb-5 mb-md-0" href="#" role="button">Eu quero</a>
+<div class="container">
+  <div class="jumbotron">
+    <div class="row">
+      <div class="col12 col-md-7 text-center text-md-start">
+      <h1 class="display-4 drop-shadow">O melhor sorvete de Braslia!</h1>
+    <p class="lead">Não perca tempo, garanta já o seu Yogo.</p>    
+    <a class="btn btn-dark drop-shadow" href="#" role="button">COMPRAR</a>
+  </div>
+  <div class="col12 col-md-5 drop"><img src="images/hero1.png" alt="Sorvete" class="img-fluid"></div>
+</div>
+</div>
+</div>
+<!--fim do jumbotron-->
 
-        </div> 
-          
-    <div class="col12 col-md-5"><img src="images/hero1.png" alt="Sorvete" class="img-fluid"></div>
-      </div>
-       
+<!--carrousel-->
 
-      </div>
-
-
-
-     
-  <!-- Carrousel -->
-
-  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
+<div class="container">
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner wdcarrousel">
       <div class="carousel-item active">
         <img src="images/yogurt-1.png" class="d-block w-100" alt="...">
       </div>
@@ -96,48 +81,73 @@
         <img src="images/yogurt-3.png" class="d-block w-100" alt="...">
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+      <span class="sr-only">Next</span>
+    </a>
   </div>
-   
 
-     <!-- CARDS -->
+  <!--fim do carrousel-->
+  
+  <!--cards-->
 
+  <div class="cardsbox">
   <div class="card" style="width: 18rem;">
     <img src="images/product1.png" class="card-img-top" alt="...">
     <div class="card-body">
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p class="card-text">Some quick example text to build on the card title.</p>
     </div>
   </div>
 
   <div class="card" style="width: 18rem;">
     <img src="images/product2.png" class="card-img-top" alt="...">
     <div class="card-body">
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p class="card-text">Some quick example text to build on the card title.</p>
     </div>
   </div>
 
   <div class="card" style="width: 18rem;">
     <img src="images/product3.png" class="card-img-top" alt="...">
     <div class="card-body">
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p class="card-text">Some quick example text to build on the card title.</p>
     </div>
   </div>
 </div>
+  <!--fim dos cards-->
 
-    
-<!-- Este é meu bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-    
+</div>
+<br><br>
 
+ <!-- FOOTER -->
+ <footer class="text-muted">
+  <div class="container">
+    <p class="float-right">
+      <a class="btn btn-dark drop-shadow" href="#">Voltar ao topo</a>
+    </p>
+    <p class="text-white drop-shadow">Sorveteria YOGO &copy; Todos os direitos reservados.</p>
+    <p class="text-white drop-shadow">Visite nossas redes sociais <a class="text-white drop-shadow" href="/">Facebook</a> e <a class="text-white drop-shadow" href="#">Instagram</a>.</p>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--MEU JS-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
 
 </body>
 </html>

@@ -1,31 +1,35 @@
-/*https://www.grabient.com/ para backgound*/
-
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
-    background-color: #74EBD5;
-    background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
-}
-
-h1 {
-    font-family: 'Bangers', cursive;
-    font-weight: 400;
-    font-size: 3.8rem;
+background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);    
+font-family: 'Open Sans', sans-serif;
 }
 
 .jumbotron {
-    background-color: rgba(0, 255, 255, 0)
+    background-color: rgba(255, 255, 255, 0);
+    padding-top: 40px;
 }
 
-/*SOMBRA PARA TEXTO*/
-.drop-shadow { 
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.199);
+.cardsbox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: white;    
 }
 
 .lead {
     color: white;
     font-size: 1.5rem;
-    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.199);
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.349);
+}    
+
+/*SOMBRA PARA TEXTO*/
+.drop-shadow { 
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.349);
 }
 
 main {
@@ -34,14 +38,18 @@ main {
     align-items: center;
 }
 
-.jumbotron {
-    padding-top: 40px;
+.container {
+    max-width: 950px;
 }
 
 .btn-outline-light {
-    border-color: white;
+    background-color: white;
 }
 
 .btn-outline-light:hover {
-    background-color: rgba(255, 255, 255, 0.308);
+    background-color: rgba(255, 255, 255, 0.404);
+}
+
+.wdcarrousel {
+    max-width: 750px;
 }
